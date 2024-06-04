@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wago Known</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            /* Center aligning all content vertically */
+            background-color: #121212;
+            color: #ffffff;
+            min-height: 100vh;
+        }
+
+        .title {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            width: 100%;
+            /* Adjust width to match the container width */
+            text-align: center;
+        }
+
+        .container {
+            width: 80%;
+            /* Set a maximum width for alignment */
+            max-width: 400px;
+            /* Limiting width to keep content neatly aligned */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            /* Distributes space between file name and button */
+            margin: 5px auto;
+            /* Centers container and adds vertical spacing */
+        }
+
+        .file-name-date {
+            display: flex;
+            align-items: center;
+            /* Vertically align items in the middle */
+            justify-content: space-between;
+            /* Spread out the filename and date */
+            flex-wrap: nowrap;
+            /* Prevents wrapping onto the next line */
+            width: 100%;
+            /* Use the full width of the container */
+        }
+
+        .file-name {
+            margin-right: 10px;
+            /* Space between the filename and the date */
+        }
+
+        button {
+            background-color: #1f1f1f;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            color: #ffffff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        button:hover,
+        button.flash {
+            background-color: #333333;
+        }
+
+        button.flash {
+            box-shadow: 0 0 8px #ffffff;
+        }
+        #lastUpdatedDate {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: #fff; /* assuming a dark background, set the text color to white */
+            font-size: 16px;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <body>
+    <span id="lastUpdatedDate">04-06-2024</span>
+    <div class="title">Class UI</div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - Class Anchor</div>
+            <span id="deathKnightUIDate">1.0.10</span>
+        </div>
+        <button onclick="copyToClipboard('ClassAnchor.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - Death Knight UI</div>
+            <span id="deathKnightUIDate">1.0.32</span>
+        </div>
+        <button onclick="copyToClipboard('DeathKnight.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - Druid UI</div>
+            <span id="druidUIDate">1.0.21</span>
+        </div>
+        <button onclick="copyToClipboard('Druid.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - Hunter UI</div>
+            <span id="hunterUIDate">1.07</span>
+        </div>
+        <button onclick="copyToClipboard('Hunter.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - Mage UI</div>
+            <span id="mageUIDate">1.0.19</span>
+        </div>
+        <button onclick="copyToClipboard('Mage.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - Paladin UI</div>
+            <span id="paladinUIDate">1.0.13</span>
+        </div>
+        <button onclick="copyToClipboard('Paladin.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - Priest UI</div>
+            <span id="priestUIDate">1.0.23</span>
+        </div>
+        <button onclick="copyToClipboard('Priest.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - Rogue UI</div>
+            <span id="rogueUIDate">1.0.8</span>
+        </div>
+        <button onclick="copyToClipboard('Rogue.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - Shaman UI</div>
+            <span id="shamanUIDate">1.0.11</span>
+        </div>
+        <button onclick="copyToClipboard('Shaman.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - Warrior UI</div>
+            <span id="warriorUIDate">1.0.9</span>
+        </div>
+        <button onclick="copyToClipboard('Warrior.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - Warlock UI</div>
+            <span id="warlockUIDate">1.0.2</span>
+        </div>
+        <button onclick="copyToClipboard('Warlock.txt', this)">Copy</button>
+    </div>
+
+	<div class="title">Raid WAs</div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Raid Pack Anchors</div>
+            <span id="numenCoreDate">1.0.6</span>
+        </div>
+        <button onclick="copyToClipboard('RaidAnchor.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Numen - Core</div>
+            <span id="numenCoreDate">2.0.13</span>
+        </div>
+        <button onclick="copyToClipboard('NumenCore.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - Consumes</div>
+            <span id="consumesDate">2.0.1</span>
+        </div>
+        <button onclick="copyToClipboard('Consumes.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - Consumes CD Reminder</div>
+            <span id="consumesDate">1.0.10</span>
+        </div>
+        <button onclick="copyToClipboard('ConsumesReminder.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - Cooldown Pulse</div>
+            <span id="CDPulseDate">1.0.3</span>
+        </div>
+        <button onclick="copyToClipboard('CDPulse.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Item Trinket Tracker</div>
+            <span id="consumesDate">1.0.6</span>
+        </div>
+        <button onclick="copyToClipboard('ItemTrinket.txt', this)">Copy</button>
+    </div>
+	<div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Raid Assignment</div>
+            <span id="consumesDate">3.0.1</span>
+        </div>
+        <button onclick="copyToClipboard('RaidAssignment.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - Baradin Hold Pack</div>
+            <span id="PVPDate">1.0.0</span>
+        </div>
+        <button onclick="copyToClipboard('PVP.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - [T11] Bastion of Twilight Pack</div>
+            <span id="t11OneDate">1.07</span>
+        </div>
+        <button onclick="copyToClipboard('T11-1.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - [T11] Blackwing Descent Pack</div>
+            <span id="t11TwoDate">1.0.7</span>
+        </div>
+        <button onclick="copyToClipboard('T11-2.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - [T11] Throne of the Four Winds Pack</div>
+            <span id="t11ThreeDate">1.0.3</span>
+        </div>
+        <button onclick="copyToClipboard('T11-3.txt', this)">Copy</button>
+    </div>
+    <script>
+        function copyToClipboard(filename, element) {
+            fetch(filename)
+                .then(response => response.text())
+                .then(text => {
+                    navigator.clipboard.writeText(text)
+                        .then(() => {
+                            element.classList.add('flash');
+                            setTimeout(() => element.classList.remove('flash'), 300);
+                        })
+                        .catch(err => console.error("Failed to copy text: ", err));
+                })
+                .catch(error => console.error('Error fetching the text file: ', error));
+        };
+    </script>
+
+</body>
+</html>
