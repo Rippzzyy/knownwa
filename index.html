@@ -16,8 +16,7 @@
             background-color: #121212;
             color: #ffffff;
             min-height: 100vh;
-        }
-
+        }	
         .title {
             font-size: 36px;
             font-weight: bold;
@@ -25,14 +24,14 @@
             width: 100%;
             /* Adjust width to match the container width */
             text-align: center;
-        }
-
+        }		
         .container {
+			display: flex;
             width: 80%;
             /* Set a maximum width for alignment */
             max-width: 400px;
             /* Limiting width to keep content neatly aligned */
-            display: flex;
+            
             align-items: center;
             justify-content: space-between;
             /* Distributes space between file name and button */
@@ -168,7 +167,6 @@
         </div>
         <button onclick="copyToClipboard('Warlock.txt', this)">Copy</button>
     </div>
-
 	<div class="title">Raid WAs</div>
     <div class="container">
         <div class="file-name-date">
@@ -246,6 +244,19 @@
             <span id="t11ThreeDate">1.0.6</span>
         </div>
         <button onclick="copyToClipboard('T11-ToTW.txt', this)">Copy</button>
+    </div>
+	<div class="title">Questing</div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">RestedXP</div>
+        </div>
+        <a target="_blank" href="https://www.ownedcore.com/forums/wow-classic/wow-classic-guides/974853-r-st-dxp-classic-wrath.html"><button>Link</button></a>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
+            <div class="file-name">AtlasLootClassic</div>
+        </div>
+        <a target="_blank" href="https://github.com/snowflame0/AtlasLootClassic_Cata.git"><button>Link</button></a>
     </div>
     <script>
         function copyToClipboard(filename, element) {
