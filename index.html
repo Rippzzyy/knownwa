@@ -93,7 +93,7 @@
     <div class="container">
         <div class="file-name-date">
             <div class="file-name">Fojji - Class Anchor</div>
-            <span id="classAnchor"></span>
+            <span id="classAnchorDate"></span>
         </div>
         <button onclick="copyToClipboard('ClassAnchor.txt', this)">Copy</button>
     </div>
@@ -256,18 +256,21 @@
     <div class="container">
         <div class="file-name-date">
             <div class="file-name">RestedXP</div>
+			<span id="external"></span>
         </div>
         <a target="_blank" href="https://www.ownedcore.com/forums/wow-classic/wow-classic-guides/974853-r-st-dxp-classic-wrath.html"><button>Link</button></a>
     </div>
     <div class="container">
         <div class="file-name-date">
             <div class="file-name">Zygor Guides</div>
+			<span id="external"></span>
         </div>
         <a target="_blank" href="https://www.ownedcore.com/forums/world-of-warcraft/world-of-warcraft-guides/974854-zyg-r-classic-cata-retail.html"><button>Link</button></a>
     </div>
     <div class="container">
         <div class="file-name-date">
             <div class="file-name">AtlasLootClassic</div>
+			<span id="external"></span>
         </div>
         <a target="_blank" href="https://github.com/snowflame0/AtlasLootClassic_Cata.git"><button>Link</button></a>
     </div>
@@ -291,6 +294,30 @@
 			.then(response => response.json())
 			.then(data => {
 				document.getElementById('lastUpdatedDate').textContent = "Last Updated: " + data.lastUpdatedDate;
+				document.getElementById('classAnchorDate').textContent = data.classAnchorDate;
+				document.getElementById('deathKnightUIDate').textContent = data.deathKnightUIDate;
+				document.getElementById('druidUIDate').textContent = data.druidUIDate;
+				document.getElementById('hunterUIDate').textContent = data.hunterUIDate;
+				document.getElementById('mageUIDate').textContent = data.mageUIDate;
+				document.getElementById('paladinUIDate').textContent = data.paladinUIDate;
+				document.getElementById('priestUIDate').textContent = data.priestUIDate;
+				document.getElementById('rogueUIDate').textContent = data.rogueUIDate;
+				document.getElementById('shamanUIDate').textContent = data.shamanUIDate;
+				document.getElementById('warriorUIDate').textContent = data.warriorUIDate;
+				document.getElementById('warlockUIDate').textContent = data.warlockUIDate;
+				document.getElementById('raidAnchorDate').textContent = data.raidAnchorDate;
+				document.getElementById('numenCoreDate').textContent = data.numenCoreDate;
+				document.getElementById('consumesDate').textContent = data.consumesDate;
+				document.getElementById('consumesReminderDate').textContent = data.consumesReminderDate;
+				document.getElementById('CDPulseDate').textContent = data.CDPulseDate;
+				document.getElementById('trinketDate').textContent = data.trinketDate;
+				document.getElementById('raidAssignmentDate').textContent = data.raidAssignmentDate;
+				document.getElementById('fojjiPullDate').textContent = data.fojjiPullDate;
+				document.getElementById('PVPDate').textContent = data.PVPDate;
+				document.getElementById('t11BOTDate').textContent = data.t11BOTDate;
+				document.getElementById('t11BWDDate').textContent = data.t11BWDDate;
+				document.getElementById('t11ToFWDate').textContent = data.t11ToFWDate;
+				document.getElementById('external').textContent = data.external;
 
 			}) 
         };

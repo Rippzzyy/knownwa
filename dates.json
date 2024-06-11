@@ -9,8 +9,8 @@
     "priestUIDate": "1.0.24",
     "rogueUIDate": "1.0.9",
     "shamanUIDate": "1.0.11",
-    "warlockUIDate": "1.0.2",
     "warriorUIDate": "1.0.10",
+    "warlockUIDate": "1.0.2",
 	"raidAnchorDate": "1.0.7",
     "numenCoreDate": "2.0.15",
 	"consumesDate": "2.0.1",
@@ -22,5 +22,6 @@
 	"PVPDate": "1.0.3",
     "t11BOTDate": "1.0.12",
     "t11BWDDate": "1.0.10",
-    "t11ToFWDate": "1.0.8"
+    "t11ToFWDate": "1.0.8",
+	"external": "",
 }
