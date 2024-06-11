@@ -291,30 +291,6 @@
 			.then(response => response.json())
 			.then(data => {
 				document.getElementById('lastUpdatedDate').textContent = "Last Updated: " + data.lastUpdatedDate;
-				document.getElementById('classAnchorDate').textContent = data.classAnchorDate;
-				document.getElementById('raidAnchorDate').textContent = data.raidAnchorDate;
-				document.getElementById('deathKnightUIDate').textContent = data.deathKnightUIDate;
-				document.getElementById('consumesReminderDate').textContent = data.consumesReminderDate;
-				document.getElementById('druidUIDate').textContent = data.druidUIDate;
-				document.getElementById('hunterUIDate').textContent = data.hunterUIDate;
-				document.getElementById('mageUIDate').textContent = data.mageUIDate;
-				document.getElementById('paladinUIDate').textContent = data.paladinUIDate;
-				document.getElementById('priestUIDate').textContent = data.priestUIDate;
-				document.getElementById('rogueUIDate').textContent = data.rogueUIDate;
-				document.getElementById('shamanUIDate').textContent = data.shamanUIDate;
-				document.getElementById('warlockUIDate').textContent = data.warlockUIDate;
-				document.getElementById('warriorUIDate').textContent = data.warriorUIDate;
-				document.getElementById('numenCoreDate').textContent = data.numenCoreDate;
-				document.getElementById('essentialsDate').textContent = data.essentialsDate;
-				document.getElementById('CDPulseDate').textContent = data.CDPulseDate;
-				document.getElementById('consumesDate').textContent = data.consumesDate;
-				document.getElementById('PVPDate').textContent = data.PVPDate;
-				document.getElementById('t11BOTDate').textContent = data.t11BOTDate;
-				document.getElementById('t11BWDDate').textContent = data.t11BWDDate;
-				document.getElementById('t11ToFWDate').textContent = data.t11ToFWDate;
-				document.getElementById('trinketDate').textContent = data.trinketDate;
-				document.getElementById('raidAssignmentDate').textContent = data.raidAssignmentDate;
-				document.getElementById('fojjiPullDate').textContent = data.fojjiPullDate;
 
 			}) 
         };
