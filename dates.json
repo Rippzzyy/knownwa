@@ -1,16 +1,16 @@
 {
-    "lastUpdatedDate": "22-06-2024",
+    "lastUpdatedDate": "22-06-2204",
 	"classAnchorDate": "1.0.7",
     "deathKnightUIDate": "1.0.40",
     "druidUIDate": "1.0.21",
     "hunterUIDate": "1.0.7",
-    "mageUIDate": "1.0.26",
-    "paladinUIDate": "1.0.15",
+    "mageUIDate": "1.0.23",
+    "paladinUIDate": "1.0.14",
     "priestUIDate": "1.0.24",
     "rogueUIDate": "1.0.9",
     "shamanUIDate": "1.0.11",
+    "warlockUIDate": "1.0.2",
     "warriorUIDate": "1.0.10",
-    "warlockUIDate": "1.0.5",
 	"raidAnchorDate": "1.0.7",
     "numenCoreDate": "2.0.19",
 	"essentialsDate": "2.0.8",
@@ -27,4 +27,5 @@
     "t11BWDDate": "1.0.11",
     "t11ToFWDate": "1.0.8",
 	"external": ""
+
 }
