@@ -184,6 +184,13 @@
     </div>
     <div class="container">
         <div class="file-name-date">
+            <div class="file-name">Fojji - Essentials</div>
+            <span id="essentialsDate"></span>
+        </div>
+        <button onclick="copyToClipboard('Essentials.txt', this)">Copy</button>
+    </div>
+    <div class="container">
+        <div class="file-name-date">
             <div class="file-name">Fojji - Consumes</div>
             <span id="consumesDate"></span>
         </div>
@@ -216,6 +223,20 @@
             <span id="raidAssignmentDate"></span>
         </div>
         <button onclick="copyToClipboard('RaidAssignment.txt', this)">Copy</button>
+    </div>
+	<div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Personal Assignments</div>
+            <span id="personalAssignmentsDate"></span>
+        </div>
+        <button onclick="copyToClipboard('PersonalAssignments.txt', this)">Copy</button>
+    </div>
+	<div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Raid Tools</div>
+            <span id="raidToolsDate"></span>
+        </div>
+        <button onclick="copyToClipboard('RaidTools.txt', this)">Copy</button>
     </div>
 	<div class="container">
         <div class="file-name-date">
@@ -318,6 +339,9 @@
 				document.getElementById('t11BWDDate').textContent = data.t11BWDDate;
 				document.getElementById('t11ToFWDate').textContent = data.t11ToFWDate;
 				document.getElementById('external').textContent = data.external;
+				document.getElementById('personalAssignmentsDate').textContent = data.personalAssignmentsDate;
+				document.getElementById('raidToolsDate').textContent = data.raidToolsDate;
+				document.getElementById('essentialsDate').textContent = data.essentialsDate;
 			}) 
         };
     </script>
