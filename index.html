@@ -299,32 +299,32 @@
 	<div class="container">
         <div class="file-name-date">
             <div class="file-name">NAG Addon</div>
-            <span id="t11ToFWDate"></span>
+            <span id="external"></span>
         </div>
         <a target="_blank" href="https://mega.nz/file/CU8k2ApQ#5qkKI9M3CR1f4lCwAg4c-J5q5ZUyA05LIDY2k14boX4"><button>Link</button></a>
     </div>
-	<div class="container">
+    <div class="container">
         <div class="file-name-date">
             <div class="file-name">Death Knight NAG</div>
             <span id="DKNAGDate"></span>
         </div>
         <button onclick="copyToClipboard('DKNAG.txt', this)">Copy</button>
     </div>
-	<div class="container">
+    <div class="container">
         <div class="file-name-date">
             <div class="file-name">Retribution NAG</div>
             <span id="RetNAGDate"></span>
         </div>
         <button onclick="copyToClipboard('RetNAG.txt', this)">Copy</button>
     </div>
-	<div class="container">
+    <div class="container">
         <div class="file-name-date">
             <div class="file-name">Warrior NAG</div>
             <span id="WarriorNAGDate"></span>
         </div>
         <button onclick="copyToClipboard('WarriorNAG.txt', this)">Copy</button>
     </div>
-	<div class="container">
+    <div class="container">
         <div class="file-name-date">
             <div class="file-name">Rogue NAG</div>
             <span id="RogueNAGDate"></span>
@@ -379,10 +379,10 @@
 					document.getElementById('t11BWDDate').textContent = data.t11BWDDate;
 					document.getElementById('t11ToFWDate').textContent = data.t11ToFWDate;
 					document.getElementById('external').textContent = data.external;
-					document.getElementById('DKNAGDate').textContent = data.external;
-					document.getElementById('RetNAGDate').textContent = data.external;
-					document.getElementById('WarriorNAGDate').textContent = data.external;
-					document.getElementById('RogueNAGDate').textContent = data.external;
+					document.getElementById('DKNAGDate').textContent = data.DKNAGDate;
+					document.getElementById('RetNAGDate').textContent = data.RetNAGDate;
+					document.getElementById('WarriorNAGDate').textContent = data.WarriorNAGDate;
+					document.getElementById('RogueNAGDate').textContent = data.RogueNAGDate;
                 })
                 .catch(error => console.error('Failed to load dates: ', error));
         };
