@@ -26,6 +26,10 @@
     "t11BOTDate": "1.0.19",
     "t11BWDDate": "1.0.12",
     "t11ToFWDate": "1.0.8",
-	"external": ""
+	"external": "",
+	"DKNAG": "1.0.43",
+	"RetNAG": "1.0.1",
+	"WarriorNAG": "1.0.1",
+	"RogueNAG": "1.0.1"
 
 }

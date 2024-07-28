@@ -295,6 +295,42 @@
         </div>
         <a target="_blank" href="https://github.com/snowflame0/AtlasLootClassic_Cata.git"><button>Link</button></a>
     </div>
+	<div class="title">Next Action Guides</div>
+	<div class="container">
+        <div class="file-name-date">
+            <div class="file-name">NAG Addon</div>
+            <span id="t11ToFWDate"></span>
+        </div>
+        <a target="_blank" href="https://mega.nz/file/CU8k2ApQ#5qkKI9M3CR1f4lCwAg4c-J5q5ZUyA05LIDY2k14boX4"><button>Link</button></a>
+    </div>
+	<div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Death Knight NAG</div>
+            <span id="DKNAG"></span>
+        </div>
+        <button onclick="copyToClipboard('DKNAG.txt', this)">Copy</button>
+    </div>
+	<div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Retribution NAG</div>
+            <span id="RetNAG"></span>
+        </div>
+        <button onclick="copyToClipboard('RetNAG.txt', this)">Copy</button>
+    </div>
+	<div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Warrior NAG</div>
+            <span id="WarriorNAG"></span>
+        </div>
+        <button onclick="copyToClipboard('WarriorNAG.txt', this)">Copy</button>
+    </div>
+	<div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Rogue NAG</div>
+            <span id="RogueNAG"></span>
+        </div>
+        <button onclick="copyToClipboard('RogueNAG.txt', this)">Copy</button>
+    </div>
     <script>
         
         function copyToClipboard(filename, element) {
@@ -343,6 +379,10 @@
 					document.getElementById('t11BWDDate').textContent = data.t11BWDDate;
 					document.getElementById('t11ToFWDate').textContent = data.t11ToFWDate;
 					document.getElementById('external').textContent = data.external;
+					document.getElementById('DKNAG').textContent = data.external;
+					document.getElementById('RetNAG').textContent = data.external;
+					document.getElementById('WarriorNAG').textContent = data.external;
+					document.getElementById('RogueNAG').textContent = data.external;
                 })
                 .catch(error => console.error('Failed to load dates: ', error));
         };
