@@ -301,7 +301,7 @@
             <div class="file-name">NAG Addon</div>
             <span id="external"></span>
         </div>
-        <a target="_blank" href="https://mega.nz/file/CU8k2ApQ#5qkKI9M3CR1f4lCwAg4c-J5q5ZUyA05LIDY2k14boX4"><button>Link</button></a>
+        <a target="_blank" href="https://mega.nz/file/fVMkhaQS#GpLD6Y0-OAywpJIYOiLBjQtn2OKeUTvCgmvWgMIkHUc"><button>Link</button></a>
     </div>
     <div class="container">
         <div class="file-name-date">
@@ -330,6 +330,20 @@
             <span id="RogueNAGDate"></span>
         </div>
         <button onclick="copyToClipboard('RogueNAG.txt', this)">Copy</button>
+    </div>
+	<div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Druid NAG</div>
+            <span id="DruidNAGDate"></span>
+        </div>
+        <button onclick="copyToClipboard('DruidNAG.txt', this)">Copy</button>
+    </div>
+	<div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Mage NAG</div>
+            <span id="MageNAGDate"></span>
+        </div>
+        <button onclick="copyToClipboard('MageNAG.txt', this)">Copy</button>
     </div>
     <script>
         
@@ -383,6 +397,8 @@
 					document.getElementById('RetNAGDate').textContent = data.RetNAGDate;
 					document.getElementById('WarriorNAGDate').textContent = data.WarriorNAGDate;
 					document.getElementById('RogueNAGDate').textContent = data.RogueNAGDate;
+					document.getElementById('DruidNAGDate').textContent = data.DruidNAGDate;
+					document.getElementById('MageNAGDate').textContent = data.MageNAGDate;
                 })
                 .catch(error => console.error('Failed to load dates: ', error));
         };
