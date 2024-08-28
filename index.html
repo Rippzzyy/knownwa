@@ -220,7 +220,7 @@
 	<div class="container">
         <div class="file-name-date">
             <div class="file-name">Set Reminder Suite</div>
-            <span id="SetReminderDate"></span>
+            <span id="external"></span>
         </div>
         <button onclick="copyToClipboard('SetReminder.txt', this)">Copy</button>
     </div>
@@ -413,7 +413,6 @@
 					document.getElementById('RogueNAGDate').textContent = data.RogueNAGDate;
 					document.getElementById('DruidNAGDate').textContent = data.DruidNAGDate;
 					document.getElementById('MageNAGDate').textContent = data.MageNAGDate;
-					document.getElementById('SetReminderDate').textContent = data.SetReminderDate;
                 })
                 .catch(error => console.error('Failed to load dates: ', error));
         };
