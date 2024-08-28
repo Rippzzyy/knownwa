@@ -1,5 +1,4 @@
 {
-    //Core and UI WAs
     "lastUpdatedDate": "28-08-2204",
 	"classAnchorDate": "1.0.7",
     "deathKnightUIDate": "1.0.42",
@@ -12,7 +11,6 @@
     "shamanUIDate": "1.0.11",
     "warlockUIDate": "1.0.9",
     "warriorUIDate": "1.0.10",
-    //Raid WAs
 	"raidAnchorDate": "1.0.7",
     "numenCoreDate": "2.0.19",
 	"essentialsDate": "2.0.11",
@@ -29,13 +27,11 @@
     "t11BWDDate": "2.0.2",
     "t11ToFWDate": "2.0.3",
 	"external": "",
-    "SetReminderDate": "1.0.2",
-    //NAG
 	"DKNAGDate": "1.0.44",
 	"RetNAGDate": "1.0.3",
 	"WarriorNAGDate": "1.0.1",
 	"RogueNAGDate": "1.0.9",
     "DruidNAGDate": "1.0.1",
-    "MageNAGDate": "1.0.3"
-
+    "MageNAGDate": "1.0.3",
+    "SetReminderDate": "1.0.2"
 }

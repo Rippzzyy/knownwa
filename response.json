@@ -27,11 +27,11 @@
     "t11BWDDate": "2.0.2",
     "t11ToFWDate": "2.0.3",
 	"external": "",
-    "SetReminderDate": "1.0.2",
 	"DKNAGDate": "1.0.44",
 	"RetNAGDate": "1.0.3",
 	"WarriorNAGDate": "1.0.1",
 	"RogueNAGDate": "1.0.9",
     "DruidNAGDate": "1.0.1",
-    "MageNAGDate": "1.0.3"
+    "MageNAGDate": "1.0.3",
+    "SetReminderDate": "1.0.2"
 }
