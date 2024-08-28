@@ -219,6 +219,13 @@
     </div>
 	<div class="container">
         <div class="file-name-date">
+            <div class="file-name">Set Reminder Suite</div>
+            <span id="SetReminderDate"></span>
+        </div>
+        <button onclick="copyToClipboard('SetReminder.txt', this)">Copy</button>
+    </div>
+	<div class="container">
+        <div class="file-name-date">
             <div class="file-name">Raid Assignment</div>
             <span id="raidAssignmentDate"></span>
         </div>
@@ -308,7 +315,7 @@
             <div class="file-name">NAG Addon</div>
             <span id="external"></span>
         </div>
-        <a target="_blank" href="https://mega.nz/file/fVMkhaQS#GpLD6Y0-OAywpJIYOiLBjQtn2OKeUTvCgmvWgMIkHUc"><button>Link</button></a>
+        <a target="_blank" href="https://mega.nz/file/0YVUADaD#zbapX4TiHdox_XIaDqc5lI7pQZWtF04qUVxfNJDFQgw"><button>Link</button></a>
     </div>
     <div class="container">
         <div class="file-name-date">
@@ -406,6 +413,7 @@
 					document.getElementById('RogueNAGDate').textContent = data.RogueNAGDate;
 					document.getElementById('DruidNAGDate').textContent = data.DruidNAGDate;
 					document.getElementById('MageNAGDate').textContent = data.MageNAGDate;
+					document.getElementById('SetReminderDate').textContent = data.SetReminderDate;
                 })
                 .catch(error => console.error('Failed to load dates: ', error));
         };

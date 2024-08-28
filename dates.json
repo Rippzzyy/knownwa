@@ -1,6 +1,6 @@
 {
     //Core and UI WAs
-    "lastUpdatedDate": "23-08-2204",
+    "lastUpdatedDate": "28-08-2204",
 	"classAnchorDate": "1.0.7",
     "deathKnightUIDate": "1.0.42",
     "druidUIDate": "1.0.23",
@@ -15,7 +15,7 @@
     //Raid WAs
 	"raidAnchorDate": "1.0.7",
     "numenCoreDate": "2.0.19",
-	"essentialsDate": "2.0.10",
+	"essentialsDate": "2.0.11",
 	"consumesDate": "2.0.1",
 	"consumesReminderDate": "1.0.10",
 	"CDPulseDate": "1.0.3",
@@ -29,6 +29,7 @@
     "t11BWDDate": "2.0.2",
     "t11ToFWDate": "2.0.3",
 	"external": "",
+    "SetReminderDate": "1.0.2",
     //NAG
 	"DKNAGDate": "1.0.44",
 	"RetNAGDate": "1.0.3",
