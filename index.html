@@ -287,6 +287,13 @@
         </div>
         <button onclick="copyToClipboard('T11-ToTW.txt', this)">Copy</button>
     </div>
+	<div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Fojji - [T12] Firelands Pack</div>
+            <span id="t12FLWDate"></span>
+        </div>
+        <button onclick="copyToClipboard('T11-ToTW.txt', this)">Copy</button>
+    </div>
 	<div class="title">Questing</div>
     <div class="container">
         <div class="file-name-date">
@@ -414,6 +421,7 @@
 					document.getElementById('DruidNAGDate').textContent = data.DruidNAGDate;
 					document.getElementById('MageNAGDate').textContent = data.MageNAGDate;
 					document.getElementById('SetReminderDate').textContent = data.SetReminderDate;
+					document.getElementById('T12FLDate').textContent = data.T12FLDate;
                 })
                 .catch(error => console.error('Failed to load dates: ', error));
         };
