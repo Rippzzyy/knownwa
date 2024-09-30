@@ -1,5 +1,5 @@
 {
-    "lastUpdatedDate": "29-08-2204",
+    "lastUpdatedDate": "30-09-2204",
 	"classAnchorDate": "1.0.7",
     "deathKnightUIDate": "1.0.42",
     "druidUIDate": "1.0.23",
@@ -34,5 +34,5 @@
     "DruidNAGDate": "1.0.1",
     "MageNAGDate": "1.0.3",
     "SetReminderDate": "1.0.2",
-    "T12FLDate": "0.0.0"
+    "T12FLDate": "0.0.1"
 }
