@@ -1,7 +1,7 @@
 {
-    "lastUpdatedDate": "22-10-2204",
+    "lastUpdatedDate": "28-10-2204",
 	"classAnchorDate": "1.0.7",
-    "deathKnightUIDate": "1.0.42",
+    "deathKnightUIDate": "1.0.43",
     "druidUIDate": "1.0.24",
     "hunterUIDate": "1.0.10",
     "mageUIDate": "1.0.34",
@@ -12,7 +12,7 @@
     "warlockUIDate": "1.0.12",
     "warriorUIDate": "1.0.13",
 	"raidAnchorDate": "1.0.7",
-    "numenCoreDate": "2.0.22",
+    "numenCoreDate": "2.0.27",
 	"essentialsDate": "2.0.18",
 	"consumesDate": "2.0.1",
 	"consumesReminderDate": "1.0.10",
