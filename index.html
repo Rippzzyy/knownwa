@@ -226,17 +226,31 @@
     </div>
 	<div class="container">
         <div class="file-name-date">
-            <div class="file-name">Raid Assignment</div>
-            <span id="raidAssignmentDate"></span>
+            <div class="file-name">Raid Assignment Core (Raiders)</div>
+            <span id="RaidAssignmentCoreDate"></span>
         </div>
-        <button onclick="copyToClipboard('RaidAssignment.txt', this)">Copy</button>
+        <button onclick="copyToClipboard('RaidAssignmentCore.txt', this)">Copy</button>
     </div>
 	<div class="container">
         <div class="file-name-date">
-            <div class="file-name">Personal Assignments</div>
-            <span id="personalAssignmentsDate"></span>
+            <div class="file-name">Raid Assignment T11 (RL)</div>
+            <span id="RaidAssignmentsT11Date"></span>
         </div>
-        <button onclick="copyToClipboard('PersonalAssignments.txt', this)">Copy</button>
+        <button onclick="copyToClipboard('RaidAssignT11.txt', this)">Copy</button>
+    </div>
+	<div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Raid Assignment T12 (RL)</div>
+            <span id="RaidAssignmentsT12Date"></span>
+        </div>
+        <button onclick="copyToClipboard('RaidAssignT12.txt', this)">Copy</button>
+    </div>
+	<div class="container">
+        <div class="file-name-date">
+            <div class="file-name">Personal Assignments T12</div>
+            <span id="personalAssignmentsT12Date"></span>
+        </div>
+        <button onclick="copyToClipboard('PersonalAssignmentsT12.txt', this)">Copy</button>
     </div>
 	<div class="container">
         <div class="file-name-date">
@@ -316,56 +330,6 @@
         </div>
         <a target="_blank" href="https://github.com/snowflame0/AtlasLootClassic_Cata.git"><button>Link</button></a>
     </div>
-	<div class="title">Next Action Guides</div>
-	<div class="container">
-        <div class="file-name-date">
-            <div class="file-name">NAG Addon</div>
-            <span id="external"></span>
-        </div>
-        <a target="_blank" href="https://mega.nz/file/EIED1DwR#raOy4oSp0yIpY4E2lfkXd10jOxJSr9YCxmWUwdp-3Ao"><button>Link</button></a>
-    </div>
-    <div class="container">
-        <div class="file-name-date">
-            <div class="file-name">Death Knight NAG</div>
-            <span id="DKNAGDate"></span>
-        </div>
-        <button onclick="copyToClipboard('DKNAG.txt', this)">Copy</button>
-    </div>
-    <div class="container">
-        <div class="file-name-date">
-            <div class="file-name">Retribution NAG</div>
-            <span id="RetNAGDate"></span>
-        </div>
-        <button onclick="copyToClipboard('RetNAG.txt', this)">Copy</button>
-    </div>
-    <div class="container">
-        <div class="file-name-date">
-            <div class="file-name">Warrior NAG</div>
-            <span id="WarriorNAGDate"></span>
-        </div>
-        <button onclick="copyToClipboard('WarriorNAG.txt', this)">Copy</button>
-    </div>
-    <div class="container">
-        <div class="file-name-date">
-            <div class="file-name">Rogue NAG</div>
-            <span id="RogueNAGDate"></span>
-        </div>
-        <button onclick="copyToClipboard('RogueNAG.txt', this)">Copy</button>
-    </div>
-	<div class="container">
-        <div class="file-name-date">
-            <div class="file-name">Druid NAG</div>
-            <span id="DruidNAGDate"></span>
-        </div>
-        <button onclick="copyToClipboard('DruidNAG.txt', this)">Copy</button>
-    </div>
-	<div class="container">
-        <div class="file-name-date">
-            <div class="file-name">Mage NAG</div>
-            <span id="MageNAGDate"></span>
-        </div>
-        <button onclick="copyToClipboard('MageNAG.txt', this)">Copy</button>
-    </div>
     <script>
         
         function copyToClipboard(filename, element) {
@@ -405,8 +369,10 @@
 					document.getElementById('consumesReminderDate').textContent = data.consumesReminderDate;
 					document.getElementById('CDPulseDate').textContent = data.CDPulseDate;
 					document.getElementById('trinketDate').textContent = data.trinketDate;
-					document.getElementById('raidAssignmentDate').textContent = data.raidAssignmentDate;
-					document.getElementById('personalAssignmentsDate').textContent = data.personalAssignmentsDate;
+					document.getElementById('RaidAssignmentCoreDate').textContent = data.RaidAssignmentCoreDate;
+					document.getElementById('personalAssignmentsT12Date').textContent = data.personalAssignmentsDate;
+					document.getElementById('RaidAssignmentsT11Date').textContent = data.RaidAssignmentsT11Date;
+					document.getElementById('RaidAssignmentsT12Date').textContent = data.RaidAssignmentsT12Date;
 					document.getElementById('raidToolsDate').textContent = data.raidToolsDate;
 					document.getElementById('fojjiPullDate').textContent = data.fojjiPullDate;
 					document.getElementById('PVPDate').textContent = data.PVPDate;
@@ -414,12 +380,6 @@
 					document.getElementById('t11BWDDate').textContent = data.t11BWDDate;
 					document.getElementById('t11ToFWDate').textContent = data.t11ToFWDate;
 					document.getElementById('external').textContent = data.external;
-					document.getElementById('DKNAGDate').textContent = data.DKNAGDate;
-					document.getElementById('RetNAGDate').textContent = data.RetNAGDate;
-					document.getElementById('WarriorNAGDate').textContent = data.WarriorNAGDate;
-					document.getElementById('RogueNAGDate').textContent = data.RogueNAGDate;
-					document.getElementById('DruidNAGDate').textContent = data.DruidNAGDate;
-					document.getElementById('MageNAGDate').textContent = data.MageNAGDate;
 					document.getElementById('SetReminderDate').textContent = data.SetReminderDate;
 					document.getElementById('T12FLDate').textContent = data.T12FLDate;
                 })
